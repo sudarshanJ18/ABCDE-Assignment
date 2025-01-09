@@ -1,0 +1,37 @@
+.button {
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  color: white;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number-button {
+  background-color: #d3d3d3;
+  color: #000; 
+}
+
+.operator-button {
+  background-color: #f68c1f;
+  color: white; 
+}
+
+.scientific-button {
+  background-color: #4a4a4a;
+  color: white; 
+}
+
+.button:hover {
+  filter: brightness(1.2);
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+}
+
+.zero-button {
+  background-color: #4a4a4a; 
+  width: 130px;
+}
