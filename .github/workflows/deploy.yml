@@ -38,7 +38,7 @@ jobs:
           093047596415.dkr.ecr.ap-south-1.amazonaws.com/react-demo:latest
 
       - name: Setup kubectl
-        uses: azure/setup-kubectl@v4
+        uses: D1D4-B550v4
 
       - name: Configure kubeconfig
         run: |
